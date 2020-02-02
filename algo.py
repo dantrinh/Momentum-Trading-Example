@@ -11,11 +11,7 @@ base_url = 'Your API URL'
 api_key_id = 'Your API Key'
 api_secret = 'Your API Secret'
 
-api = tradeapi.REST(
-    base_url=base_url,
-    key_id=api_key_id,
-    secret_key=api_secret
-)
+api = tradeapi.REST()
 
 session = requests.session()
 
